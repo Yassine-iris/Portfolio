@@ -1,0 +1,89 @@
+body {
+    background-image: url(/assets/img/fond-jaune.jpg);
+    margin: 0;
+    height: 100%;
+    .header {
+        height: 10%;
+        display: flex;
+        .logo {
+            color: rgb(0, 204, 255);
+            font-size: 80px;
+
+            p {
+                margin: 0;
+            }
+        }
+        .navbar {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                ul {
+                    width: 30%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    li {
+                        list-style: none;
+                        
+                        font-size: 20px;
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }   
+            }
+            .right {
+                width: 20%;
+                justify-content: space-evenly;
+                display: flex;
+                align-items: center;
+                height: 100%;
+
+                button {
+                    outline: none;
+                    width: 60%;
+                    height: 50%;
+                    color: #fff !important;
+                    text-decoration: none;
+                    background: #2f6cdd;
+                    padding: 10px;
+                    border-radius: 40px;
+                    border: none;
+
+                    }
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .container {
+        background-image: url(/assets/img/tofu.png);      
+        background-repeat: no-repeat;
+        height: 100%; 
+        transition: all 3000ms;
+        .banner {
+            height: 80%;
+            background-image: url(/assets/img/tofu2.png);
+            background-repeat: no-repeat;
+            background-position: 100%;
+            transition: all 3000ms;
+            :hover {
+                background-position: 50%;
+            }
+           
+        }
+        
+    }
+
+     
+    
+    
+
+
+
+    
+
+

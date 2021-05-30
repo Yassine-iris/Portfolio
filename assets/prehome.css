@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'kionaregular';
+    src: url('/assets/font/kiona-regular-webfont.woff2') format('woff2'),
+         url('/assets/font/kiona-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    background-image: url(../assets/img/st.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body .container {
+    background-image: url(./img/elp.png);
+    background-position:  5%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 99.9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 800ms;
+}
+body .container:hover {
+    background-position:  80%;
+   
+}
+.container .title  {
+    width: 80%;
+    padding-left: 20%;
+    height: 80%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: antiquewhite;
+    font-family: 'kionaregular';
+}
+.container .title:hover h1 {
+    transform: translateX(50px);
+}
+.container .title:hover h2 {
+    transform: translateX(-50px);
+}
+.container .link {
+    position: fixed;
+    top: 3%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+.container .link .box{
+    width: auto;
+    height: 80%;
+    padding: 0 30px 0 30px;
+    border-radius: 40px;
+    background-color: rgba(17, 18, 19, 0.8);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.container .link .box a {
+    font-size: 20px;
+    font-family: 'kionaregular';
+    font-weight: large;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #18e4ff, 0 0 30px #18ffd8, 0 0 40px #18dcff, 0 0 55px #18f7ff, 0 0 75px #18dcff;
+    text-decoration: none;
+}
+.container .title h1 {
+    text-align: center;
+    margin: 0%;
+    font-size: 150px;
+    font-family: 'kionaregular';
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ec18ff, 0 0 30px #18ffd8, 0 0 40px #ff18f3, 0 0 55px #18f7ff, 0 0 75px #c918ff;
+    transition: all 500ms;
+}
+
+.container .title h2 {
+    padding-left: 20%;
+    font-size: 50px;
+    color: rgb(253, 255, 255);
+    font-family: 'kionaregular'; 
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ec18ff, 0 0 30px #18ffd8, 0 0 40px #ff18f3, 0 0 55px #18f7ff, 0 0 75px #c918ff;
+    transition: all 500ms;
+}
+.container .arrow {
+
+}
+.container .arrow a {
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(253, 255, 255);
+    font-family: 'kionaregular'; 
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ec18ff, 0 0 30px #18ffd8, 0 0 40px #ff18f3, 0 0 55px #18f7ff, 0 0 75px #c918ff;
+    transition: all 500ms;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.container .arrow a:active {
+    transition: all 0.25s ease-out; 
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.black {
+    height: 100px;
+    width: 100%;
+    background-image: url(/assets/img/blanc.png);
+}
+#second-container {
+    background-image: url(/assets/img/cl.jpg);
+    height: 1000px;
+    scroll-behavior: smooth;
+}
+#second-container h1 {
+    margin: 0;
+    padding-top: 6%;
+    color: rgb(205, 216, 230);
+    font-family: 'kionaregular'; 
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ec18ff, 0 0 30px #18ffd8, 0 0 40px #ff18f3, 0 0 55px #18f7ff, 0 0 75px #c918ff;
+    text-align: center;
+    font-size: 70px;
+    scroll-behavior: smooth;
+}
+#second-container .content-stats {
+    width: 80%;
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#second-container .content-stats .content{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 500ms;
+}
+#second-container .content-stats .content:hover{
+    animation-duration: 3s;
+    transform: scale(1.2);
+    transition: all 500ms;
+}
+
+#second-container .content-stats .content h1{
+   font-size: 100px;
+}
+#three-container {
+    background-image: url(/assets/img/ty.jpg);
+    height: 1000px;
+}
+#three-container .content-stats {
+    margin: 0;
+    height: 100%;
+  
+}
+#three-container .content-stats h1{
+    margin: 0;
+}
+.footer {
+    background-color: rgb(0, 0, 0);
+}
+.footer .container-footer {
+    margin: 0;
+}
+.footer .container-footer {
+  
+}
+.footer .container-footer .content-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .container-footer .content-footer .align {
+
+}
+.footer .container-footer .content-footer .align h1{
+    color: rgb(205, 216, 230);
+    font-family: 'kionaregular';
+}
+.footer .container-footer .content-footer .align ul{
+    padding: 0%;
+}
+.footer .container-footer .content-footer .align ul li{
+    list-style: none;
+}
+.footer .container-footer .content-footer .align ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+@media (max-width: 1205px) {
+    .container .title {
+            padding-left: 0;
+    }
+    .container .title h1 {
+        font-size: 120px;
+    }
+    .container .title:hover h1 {
+        transform: translateX(20px);
+    }
+    .container .title:hover h2 {
+        transform: translateX(-20px);
+    }
+}
