@@ -22,7 +22,7 @@ require_once ('/wamp64/www/function/controller/AccountController.php');
                     <div class="dropdown">
                         <button class="dropbtn"><a href="/pages/news">Mes Projets</a><i class="fas fa-arrow-up"></i></button>
                         <div class="dropdown-content">
-                            <a href="/ppe/ppe1.PHP"><i class="fas fa-address-card"></i>PPE1</a>
+                            <a href="/ppe/ppe1.php"><i class="fas fa-address-card"></i>PPE1</a>
                             <a href="/ppe/forum.php"><i class="fas fa-vote-yea"></i>Forum</a>
                             <a href="/ppe/stage.php"><i class="fas fa-users"></i>Stage</a>
                         </div>
